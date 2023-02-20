@@ -2,7 +2,7 @@
     "name": "codehq-dk/linux-bash-helper",
     "description": "Small helper to make life easier when running bash commands in php with exec command ",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=8.1"
     },
