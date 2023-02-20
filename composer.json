@@ -20,6 +20,7 @@
         "phpunit/phpunit": "^9.5"
     },
     "scripts": {
-        "test": "vendor/bin/phpunit tests"
+        "test": "vendor/bin/phpunit tests",
+        "test-report": "vendor/bin/phpunit tests/ --coverage-html tests/CoverageReport"
     }
 }
