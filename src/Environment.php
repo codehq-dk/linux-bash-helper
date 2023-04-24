@@ -12,6 +12,7 @@ class Environment
     private const SET_PATH = 'cd ~/;source ' . self::BASHRC_FILE . " " . self::ZSH_FILE . " " . self::PROFILE_FILE;
 
     public const SILENCE_BASH_COMMAND_OUTPUT = ' 2> /dev/null';
+    public const SEND_STANDARD_ERRORS_TO_STANDARD_OUTPUT = ' 2>&1';
 
     /**
      * @throws LinuxBashHelperException
